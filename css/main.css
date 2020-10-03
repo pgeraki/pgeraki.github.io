@@ -1,0 +1,252 @@
+@font-face {
+  font-family: 'Apercu Light';
+  src: url('../fonts/apercu_light.ttf');
+}
+
+@font-face {
+  font-family: 'Adobe Caslon Pro Regular';
+  src: url('../fonts/Adobe_Caslon_Pro_Regular.ttf');
+}
+
+img {
+    width: 100%;
+    object-fit:fill;
+    display:block;
+}
+
+body {
+    font-family:"Apercu Light", Georgia, Calibri, Roboto, sans-serif;  
+}
+
+.divider {
+    width:100%;
+    margin-left:0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0rem;
+    border-bottom:1px solid #EEEEEE;
+}
+
+.logo {
+}
+
+.logo a{
+    display:block;
+}
+
+.logo img{
+    height:3.5rem;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.menu {
+    font-size:1.5rem;
+    line-height:1.2rem;
+    text-align:center;
+}
+
+.menu-item {
+    margin-left:0.3rem;
+    margin-right:0.3rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #BBBBBB;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: #333333;
+}	
+
+.submenu{
+    text-align:center;
+    font-size:1rem;
+    line-height:1rem;
+    text-align:center;
+}
+
+.submenu-item{
+    margin-left:0.3rem;
+    margin-right:0.3rem;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #BBBBBB;
+}
+
+.submenu a:hover {
+    text-decoration: none;
+    color: #333333;
+    cursor: pointer;
+}	
+
+.paragraph{
+    line-height:1.5rem;
+    text-align:left;
+    text-justify:auto;
+    margin-top:-0.25rem;
+    margin-bottom:0.75rem;
+    vertical-align:top;
+}
+
+.about-row{
+    flex-direction: column-reverse;
+}
+
+.practice-heading{
+    padding-top:0.5rem;
+    line-height:2.4rem;
+    font-size:2rem;
+    color:#000;
+}
+
+.practice-head{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 1rem;
+}
+
+#Services-Contact{
+    margin-top:-1rem;
+}
+
+#Input-Name{
+    margin-bottom:0.5rem;
+    width:100%; 
+}
+
+#Input-Email{
+    margin-bottom:0.5rem;
+    width:100%; 
+}
+
+#Input-Body{
+    margin-bottom:0.5rem;
+    width:100%;
+}
+
+#Input-Send{
+}
+
+#confirmation-field{
+    opacity:1;
+    transition: 5s opacity;
+}
+
+.project-heading{
+    padding-top:0.25rem;
+    margin-bottom:-0.5rem;
+    line-height:2rem;
+    font-size:2rem;
+    color:#000;
+/*  margin-bottom:-0.5rem;
+    font-size:2rem;
+    line-height:2rem;*/
+}
+
+.project-thumb{
+    position:relative;
+}
+
+.project-text{
+    position:absolute;
+    line-height:1rem;
+    font-size:1rem;
+    top: calc(50% - 0.5rem);
+    bottom:0;
+    left:0;
+    right:0;
+    text-align:center;
+    opacity:0;
+}
+
+.project-thumb:hover img{
+    opacity:.1;
+}
+
+.project-thumb:hover .project-text{
+    opacity:1;
+}
+
+.palmyra-head{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:310px;
+}
+
+@media (min-width: 576px){
+    .paragraph{
+        padding-right:1rem;
+    } 
+    .practice-head{
+       float:left;
+       width:200px;
+       margin-right:1rem;
+       margin-bottom:0.5rem;
+    }
+}
+
+@media (min-width:768px){
+    .container{
+        max-width:1200px; 
+        margin-left:auto; 
+        margin-right:auto;}
+    .logo{text-align:left;}
+    .logo img{margin:0;}
+    .menu{
+        height:100%; 
+        text-align:right; 
+        margin-top:auto; 
+        margin-bottom:0rem;}
+    .menu-item{
+        margin-left:0.6rem; 
+        margin-right:0rem;}
+    .submenu{
+        height:100%;
+        text-align:right;
+        margin-top:0rem;
+        margin-bottom:0rem;
+    }
+    .submenu-item{
+        margin-right:0rem;
+        margin-left:0.5rem;
+    }
+  
+    .about-row{
+        flex-direction:row;}
+  
+    .palmyra-head{
+        max-width:100%;
+    }
+    .divider{
+        margin-left:.75rem; 
+        margin-right:.75rem;
+    }
+    .practice-left{
+        padding-right:1rem;
+    }
+    .practice-head{
+        float:left;
+        margin-right:1.5rem;
+    }
+   #Services-Contact{
+    margin-top:-1rem;
+  }
+}
+
+@media (min-width:960px){
+    .practice-left{
+        padding-right:2rem;
+    }
+   #Services-Contact{
+    margin-top:0;
+}
+}
