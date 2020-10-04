@@ -97,10 +97,6 @@ body {
     cursor: pointer;
 }	
 
-.submenu-part {
-    display:block;
-}
-
 .paragraph{
     line-height:1.5rem;
     text-align:left;
