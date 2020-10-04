@@ -15,27 +15,32 @@ img {
 }
 
 body {
+    margin:0;
     font-family:"Apercu Light", Georgia, Calibri, Roboto, sans-serif;  
 }
 
-.divider {
-    width:100%;
-    margin-left:0.5rem;
-    margin-right: 0.5rem;
-    margin-bottom: 0rem;
-    border-bottom:1px solid #EEEEEE;
+.intro-top{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:50%;
+}
+
+.intro-bottom{
+    position:absolute;
+    left:0;
+    right:0;
+    top:50%;
+}
+
+.intro img{
+   margin: auto;
+   width:calc(100% - 2rem);
+   height:auto;
 }
 
 .intro a{
     display:block;
-}
-
-.intro img{
-    max-width:calc(100% - 2rem);
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:2rem;
-    margin-bottom:0;
 }
 
 .logo {
@@ -73,6 +78,14 @@ body {
 .menu a:hover {
     text-decoration: none;
     color: #333333;
+}
+
+.divider {
+    width:100%;
+    margin-left:0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0rem;
+    border-bottom:1px solid #EEEEEE;
 }
 
 .submenu{
