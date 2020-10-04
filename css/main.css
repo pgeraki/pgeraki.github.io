@@ -26,6 +26,18 @@ body {
     border-bottom:1px solid #EEEEEE;
 }
 
+.intro a{
+    display:block;
+}
+
+.intro img{
+    max-width:calc(100% - 2rem);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2rem;
+    margin-bottom:0;
+}
+
 .logo {
 }
 
@@ -61,13 +73,12 @@ body {
 .menu a:hover {
     text-decoration: none;
     color: #333333;
-}	
+}
 
 .submenu{
     text-align:center;
     font-size:1rem;
     line-height:1rem;
-    text-align:center;
 }
 
 .submenu-item{
@@ -85,6 +96,10 @@ body {
     color: #333333;
     cursor: pointer;
 }	
+
+.submenu-part {
+    display:block;
+}
 
 .paragraph{
     line-height:1.5rem;
@@ -195,6 +210,10 @@ body {
 }
 
 @media (min-width:768px){
+    .intro img{
+        height:6rem;
+        width:auto;
+    }
     .container{
         max-width:1200px; 
         margin-left:auto; 
