@@ -156,7 +156,8 @@ body {
     width:100%;
 }
 
-#Input-Send{
+#Input-Newsletter{
+    margin-bottom:0.5rem;
 }
 
 #confirmation-field{
