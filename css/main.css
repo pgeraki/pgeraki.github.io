@@ -152,11 +152,11 @@ body {
 }
 
 #Input-Body{
+    margin-bottom:0.5rem;
     width:100%;
 }
 
-#Input-Newsletter{
-    margin-bottom:0.5rem;
+#Input-Send{
 }
 
 #confirmation-field{
