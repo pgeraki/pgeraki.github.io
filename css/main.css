@@ -209,6 +209,15 @@ body {
     max-width:310px;
 }
 
+.news-year{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.news-date{
+    text-align: center;
+}
+
 @media (min-width: 576px){
     .paragraph{
         padding-right:1rem;
@@ -218,6 +227,12 @@ body {
        width:200px;
        margin-right:1rem;
        margin-bottom:0.5rem;
+    }
+    .news-year{
+        text-align:left;
+    }
+    .news-date{
+        text-align:left;
     }
 }
 
