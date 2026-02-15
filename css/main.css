@@ -225,6 +225,12 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.person-page-title{
+    position:relative;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
 @media (min-width: 576px){
     .paragraph{
         padding-right:1rem;
