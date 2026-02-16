@@ -129,7 +129,8 @@ body {
 .practice-heading{
     padding-top:0.5rem;
     line-height:2.4rem;
-    font-size:2rem;
+    font-size:1.5rem;
+    margin-bottom: 0rem;
     color:#000;
 }
 
@@ -220,6 +221,12 @@ body {
 
 .person-page-credentials{
     position:relative;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.person-page-title{
+    position:relative;
     font-size: 1rem;
     margin-bottom: 0.5rem;
 }
@@ -248,7 +255,7 @@ body {
         width:auto;
     }
     .container{
-        max-width:1200px; 
+        max-width:1000px; 
         margin-left:auto; 
         margin-right:auto;}
     .logo{text-align:left;}
